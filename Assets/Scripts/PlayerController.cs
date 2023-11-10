@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
-    public float speed;
+    public float speed = 1;
     private GameObject focalPoint;
 
     void Start()
