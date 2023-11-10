@@ -1,0 +1,23 @@
+[33mcommit 1ecdc2e6fed294b6b457495746b15087e0c012fe[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Onurcan Kurt <onurcankurt96@gmail.com>
+Date:   Fri Nov 10 17:50:40 2023 +0300
+
+    enemy spawn adjustments
+
+[33mcommit 3da97e4d4fde7be259a13574a479d88fee09f6fe[m
+Author: Onurcan Kurt <onurcankurt96@gmail.com>
+Date:   Fri Nov 10 04:20:13 2023 +0300
+
+    power up and countdown added
+
+[33mcommit 3d2d8da56400dc4ec16ed7fd2ff094fca8602e8d[m
+Author: Onurcan Kurt <onurcankurt96@gmail.com>
+Date:   Fri Nov 10 03:11:43 2023 +0300
+
+    enemy and enemy movement added
+
+[33mcommit fb11325962527783255ecdfb2b715a4f9be1d43f[m
+Author: Onurcan Kurt <onurcankurt96@gmail.com>
+Date:   Fri Nov 10 02:38:42 2023 +0300
+
+    camera and player movement changes
