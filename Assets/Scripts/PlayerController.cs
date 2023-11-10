@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
 
     public GameObject powerupIndicator;
 
+    public Projectile projectile;
+
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
@@ -35,6 +37,14 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
             powerupIndicator.gameObject.SetActive(true);
             StartCoroutine("PowerupCountdownRoutine");
+
+            foreach (var enemy in FindObjectsOfType<Enemy>())
+            {
+                Instantiate(projectile.gameObject, transform.position + (enemy.transform.position - projectile.transform.position).normalized * 1, projectile.transform.rotation);
+                projectile.enemy = enemy.gameObject;
+                projectile.GetComponent<Rigidbody>().AddForce((enemy.transform.position - projectile.transform.position).normalized * 10, ForceMode.Impulse);
+            }
+
         }
     }
 

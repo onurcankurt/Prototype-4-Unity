@@ -11,7 +11,7 @@ public class SpawnManager : MonoBehaviour
     public int waveNumber = 1;
 
 
-    int enemyCount = 0;
+    public int enemyCount = 0;
     void Start()
     {
 
